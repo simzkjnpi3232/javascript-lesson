@@ -48,3 +48,16 @@ let bobAge = playerList[1].age;
 let michaelAge = playerList[2].age;
 
 console.log((johnAge + bobAge + michaelAge) / 3);
+
+// q6
+function sayHello() {
+  console.log('Hello');
+}
+
+sayHello();
+
+const sayWorld = function() {
+  console.log('World');
+}
+
+sayWorld();
