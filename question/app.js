@@ -96,3 +96,10 @@ function remainder(x, y) {
 }
 
 remainder(5, 3);
+
+// q10
+function foo() {
+  let x = 1;
+}
+console.log(x);
+// エラーが出力される理由は、console.log(x)が変数xをスコープの外から参照しようとしているためです。
