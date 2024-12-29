@@ -68,3 +68,24 @@ sayWorld();
 
 // q7
 user.sayHello();
+
+// q8
+let calc = {
+  add: function(x, y) {
+    console.log(x + y);
+  },
+  subtract: function(x, y) {
+    console.log(x - y);
+  },
+  multiply: function(x, y) {
+    console.log(x * y);
+  },
+  divide: function(x, y) {
+    console.log(x / y);
+  }
+};
+
+calc.add(5, 2);
+calc.subtract(20, 10);
+calc.multiply(7, 7);
+calc.divide(10, 2);
