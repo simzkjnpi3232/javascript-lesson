@@ -41,3 +41,10 @@ let playerList = [
 ];
 
 console.log(playerList[1].favorites[1]);
+
+// q5
+let johnAge = playerList[0].age;
+let bobAge = playerList[1].age;
+let michaelAge = playerList[2].age;
+
+console.log((johnAge + bobAge + michaelAge) / 3);
