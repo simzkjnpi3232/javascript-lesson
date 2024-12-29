@@ -89,3 +89,10 @@ calc.add(5, 2);
 calc.subtract(20, 10);
 calc.multiply(7, 7);
 calc.divide(10, 2);
+
+// q9
+function remainder(x, y) {
+  return console.log(x + 'を' + y + 'で割った余りは' + x % y + 'です。');
+}
+
+remainder(5, 3);
