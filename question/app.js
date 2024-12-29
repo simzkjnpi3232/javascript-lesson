@@ -10,3 +10,13 @@ let javaScript = languages[0];
 let python = languages[3];
 
 console.log(`私の好きな言語は${javaScript}です。次は${python}を勉強してみたいです。`);
+
+//q3
+let user = {
+  name: 'John',
+  age: 26,
+  bloodType: 'A',
+  favorite: 'card',
+};
+
+console.log(user.age);
