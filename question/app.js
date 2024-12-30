@@ -107,3 +107,10 @@ remainder(5, 3);
 // Q1 標準組み込みオブジェクト
 let randomInteger = Math.floor(Math.random() * 10);
 console.log(randomInteger);
+
+// Q2 コールバック関数
+function doFunc() {
+  console.log('Hello World!');
+}
+
+setTimeout(doFunc, 3000);
