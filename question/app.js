@@ -114,3 +114,13 @@ function doFunc() {
 }
 
 setTimeout(doFunc, 3000);
+
+// Q3 if
+let num  = 0;
+if (num  > 0) {
+  console.log('num is greater than 0');
+} else if (num  < 0) {
+  console.log('num is less than 0');
+} else if (num  === 0) {
+  console.log('num is 0');
+}
