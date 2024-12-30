@@ -124,3 +124,11 @@ if (num  > 0) {
 } else if (num  === 0) {
   console.log('num is 0');
 }
+
+// Q4 for
+let numbers = [];
+for (let i = 0; i < 100; i++) {
+  numbers.push(i);
+}
+
+console.log(numbers);
