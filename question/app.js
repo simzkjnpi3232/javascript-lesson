@@ -18,9 +18,6 @@ let user = {
   bloodType: 'A',
   favorite: 'card',
   birthday: '2000-09-27',
-  sayHello: function () {
-    console.log('Hello！');
-  }
 };
 
 console.log(user.age);
@@ -67,6 +64,9 @@ const sayWorld = function () {
 sayWorld();
 
 // Q7 メソッド
+user.sayHello = function () {
+  console.log('Hello！');
+}
 user.sayHello();
 
 // Q8 引数
