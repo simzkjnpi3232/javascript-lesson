@@ -44,11 +44,14 @@ let playerList = [
 console.log(playerList[1].favorites[1]);
 
 // Q5 四則演算
-let johnAge = playerList[0].age;
-let bobAge = playerList[1].age;
-let michaelAge = playerList[2].age;
+let totalAge = 0;
 
-console.log((johnAge + bobAge + michaelAge) / 3);
+for (let i = 0; i < playerList.length; i++) {
+  totalAge += playerList[i].age;
+}
+
+let averageAge = totalAge / playerList.length;
+console.log(averageAge);
 
 // Q6 関数
 function sayHello() {
