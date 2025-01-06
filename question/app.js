@@ -6,10 +6,10 @@ console.log('私のニックネームは' + nickname + 'です。年齢は' + ag
 
 // Q2 配列
 let languages = ['JavaScript', 'PHP', 'Ruby', 'Python', 'Go'];
-let javaScript = languages[0];
-let python = languages[3];
+let favoriteLanguage = languages[0];
+let nextLanguage = languages[3];
 
-console.log(`私の好きな言語は${javaScript}です。次は${python}を勉強してみたいです。`);
+console.log(`私の好きな言語は${favoriteLanguage}です。次は${nextLanguage}を勉強してみたいです。`);
 
 // Q3 オブジェクト
 let user = {
@@ -18,7 +18,7 @@ let user = {
   bloodType: 'A',
   favorite: 'card',
   birthday: '2000-09-27',
-  sayHello: function() {
+  sayHello: function () {
     console.log('Hello！');
   }
 };
@@ -60,7 +60,7 @@ function sayHello() {
 
 sayHello();
 
-const sayWorld = function() {
+const sayWorld = function () {
   console.log('World');
 }
 
@@ -71,16 +71,16 @@ user.sayHello();
 
 // Q8 引数
 let calc = {
-  add: function(x, y) {
+  add: function (x, y) {
     console.log(x + y);
   },
-  subtract: function(x, y) {
+  subtract: function (x, y) {
     console.log(x - y);
   },
-  multiply: function(x, y) {
+  multiply: function (x, y) {
     console.log(x * y);
   },
-  divide: function(x, y) {
+  divide: function (x, y) {
     console.log(x / y);
   }
 };
@@ -116,12 +116,12 @@ function doFunc() {
 setTimeout(doFunc, 3000);
 
 // Q3 if
-let num  = 0;
-if (num  > 0) {
+let num = 0;
+if (num > 0) {
   console.log('num is greater than 0');
-} else if (num  < 0) {
+} else if (num < 0) {
   console.log('num is less than 0');
-} else if (num  === 0) {
+} else if (num === 0) {
   console.log('num is 0');
 }
 
